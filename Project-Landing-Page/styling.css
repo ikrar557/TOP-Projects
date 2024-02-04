@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font-family: "Roboto Light", sans-serif;
+}
+
+
+#websiteLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation-bar {
+    position: relative;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation-bar img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 250px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 15px;
+    opacity: 0.7;
+    font-size: 18px;
+    color: white;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: left;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.mainColumn1 {
+    position: relative;
+    left: 5%;
+}
+
+.mainColumn2 {
+    position: relative;
+    right: 2%;
+}
+
+button#mainSignup {
+    float: left;
+    margin-top: 10px;
+    background-color: #3882F6;
+    border-color: transparent;
+}
+
+.randomInformation h2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.informationContainer {
+    max-width: 50%;
+    position: relative;
+    left: 25%;
+    padding-bottom: 50px;
+}
+
+.squareContainer {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    font-size: 13px;
+}
+
+.square {
+    height: 125px;
+    width: 125px;
+    border-color: blue;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+section#quoteSection {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px;
+}
+
+section#quoteSection p {
+    font-family: "Microsoft JhengHei Light", sans-serif;
+    font-style: oblique;
+    font-size: 36px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+section#quoteSection span {
+    text-align: right;
+    margin-left: 600px;
+    font-size: 20px;
+}
+
+section#signUpSection {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+}
+
+#signUp {
+    height: 80px;
+    min-width: 60%;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#signUp p {
+    font-size: 12px;
+}
+
+button {
+    float: right;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+    height: 40px;
+    min-width: 20%;
+    border-style: solid;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: auto;
+    opacity: 80%;
+}
+
+footer {
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 75px;
+}
+
+footer p {
+    font-size: 14px;
+}
