@@ -19,4 +19,5 @@ The aim focus with this project is learning _Web Development_ while practicing, 
 
 ## List of The Project
 1. Foundation Course
-   - [Project: Recipes](https://github.com/ikrar557/TOP-Projects/tree/TOP-Fundamentals/Project-Recipes/odin-recipes) - Updated 2/2/2024
+   - [Project: Recipes](https://github.com/ikrar557/TOP-Projects/tree/TOP-Fundamentals/Project-Recipes/odin-recipes) - Updated 2 February 2024
+   - [Project: Landing Page](https://github.com/ikrar557/TOP-Projects/tree/TOP-Fundamentals/Project-Landing-Page) - Updated 4 February 2024
